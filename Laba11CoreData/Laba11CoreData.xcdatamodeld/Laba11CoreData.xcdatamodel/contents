@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="LENotes" representedClassName="LENotes" parentEntity="LEObject" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LEUser" inverseName="notes" inverseEntity="LEUser" syncable="YES"/>
+    </entity>
+    <entity name="LEObject" representedClassName="LEObject" syncable="YES" codeGenerationType="class"/>
+    <entity name="LEUser" representedClassName="LEUser" parentEntity="LEObject" syncable="YES" codeGenerationType="class">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="notes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LENotes" inverseName="user" inverseEntity="LENotes" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LEUser" positionX="-450" positionY="-243" width="128" height="88"/>
+        <element name="LENotes" positionX="-263" positionY="-243" width="128" height="88"/>
+        <element name="LEObject" positionX="-351" positionY="-376" width="128" height="43"/>
+    </elements>
+</model>

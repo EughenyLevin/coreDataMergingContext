@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610991B41E0D1FE30041AA84 /* LENotesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610991B31E0D1FE30041AA84 /* LENotesController.m */; };
+		610991B71E0D2FFF0041AA84 /* LECurrentNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610991B61E0D2FFF0041AA84 /* LECurrentNoteController.m */; };
+		611BCE441E1410F1004FA75B /* LENewUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BCE431E1410F1004FA75B /* LENewUserController.m */; };
+		611BCE471E144B49004FA75B /* LESection.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BCE461E144B49004FA75B /* LESection.m */; };
+		611BCE4A1E14572A004FA75B /* LEUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 611BCE491E14572A004FA75B /* LEUsers.m */; };
+		617BA83C1E0D1201002659D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA83B1E0D1201002659D2 /* main.m */; };
+		617BA83F1E0D1201002659D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA83E1E0D1201002659D2 /* AppDelegate.m */; };
+		617BA8421E0D1201002659D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8411E0D1201002659D2 /* ViewController.m */; };
+		617BA8451E0D1201002659D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA8431E0D1201002659D2 /* Main.storyboard */; };
+		617BA8481E0D1201002659D2 /* Laba11CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8461E0D1201002659D2 /* Laba11CoreData.xcdatamodeld */; };
+		617BA84A1E0D1201002659D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617BA8491E0D1201002659D2 /* Assets.xcassets */; };
+		617BA84D1E0D1201002659D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA84B1E0D1201002659D2 /* LaunchScreen.storyboard */; };
+		617BA8561E0D1217002659D2 /* LEDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8551E0D1217002659D2 /* LEDataManager.m */; };
+		617BA86D1E0D1740002659D2 /* LEUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8661E0D1740002659D2 /* LEUser+CoreDataProperties.m */; };
+		617BA86E1E0D1740002659D2 /* LENotes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8681E0D1740002659D2 /* LENotes+CoreDataProperties.m */; };
+		617BA8701E0D1740002659D2 /* LEObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA86C1E0D1740002659D2 /* LEObject+CoreDataProperties.m */; };
+		617BA8741E0D179A002659D2 /* LERootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8731E0D179A002659D2 /* LERootController.m */; };
+		617BA87A1E0D1A48002659D2 /* LEUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8791E0D1A48002659D2 /* LEUserController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		610991B21E0D1FE30041AA84 /* LENotesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENotesController.h; sourceTree = "<group>"; };
+		610991B31E0D1FE30041AA84 /* LENotesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LENotesController.m; sourceTree = "<group>"; };
+		610991B51E0D2FFF0041AA84 /* LECurrentNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LECurrentNoteController.h; sourceTree = "<group>"; };
+		610991B61E0D2FFF0041AA84 /* LECurrentNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECurrentNoteController.m; sourceTree = "<group>"; };
+		611BCE421E1410F1004FA75B /* LENewUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LENewUserController.h; sourceTree = "<group>"; };
+		611BCE431E1410F1004FA75B /* LENewUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LENewUserController.m; sourceTree = "<group>"; };
+		611BCE451E144B49004FA75B /* LESection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LESection.h; sourceTree = "<group>"; };
+		611BCE461E144B49004FA75B /* LESection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LESection.m; sourceTree = "<group>"; };
+		611BCE481E14572A004FA75B /* LEUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEUsers.h; sourceTree = "<group>"; };
+		611BCE491E14572A004FA75B /* LEUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEUsers.m; sourceTree = "<group>"; };
+		617BA8371E0D1201002659D2 /* Laba11CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laba11CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617BA83B1E0D1201002659D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		617BA83D1E0D1201002659D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		617BA83E1E0D1201002659D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		617BA8401E0D1201002659D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		617BA8411E0D1201002659D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		617BA8441E0D1201002659D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617BA8471E0D1201002659D2 /* Laba11CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Laba11CoreData.xcdatamodel; sourceTree = "<group>"; };
+		617BA8491E0D1201002659D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617BA84C1E0D1201002659D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617BA84E1E0D1201002659D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617BA8541E0D1217002659D2 /* LEDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEDataManager.h; path = Laba11CoreData/LEDataManager.h; sourceTree = "<group>"; };
+		617BA8551E0D1217002659D2 /* LEDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEDataManager.m; path = Laba11CoreData/LEDataManager.m; sourceTree = "<group>"; };
+		617BA8651E0D1740002659D2 /* LEUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		617BA8661E0D1740002659D2 /* LEUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LEUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		617BA8671E0D1740002659D2 /* LENotes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LENotes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		617BA8681E0D1740002659D2 /* LENotes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LENotes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		617BA86B1E0D1740002659D2 /* LEObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LEObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		617BA86C1E0D1740002659D2 /* LEObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LEObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		617BA8721E0D179A002659D2 /* LERootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LERootController.h; sourceTree = "<group>"; };
+		617BA8731E0D179A002659D2 /* LERootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LERootController.m; sourceTree = "<group>"; };
+		617BA8781E0D1A48002659D2 /* LEUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEUserController.h; sourceTree = "<group>"; };
+		617BA8791E0D1A48002659D2 /* LEUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEUserController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617BA8341E0D1201002659D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617BA82E1E0D1201002659D2 = {
+			isa = PBXGroup;
+			children = (
+				617BA8711E0D1777002659D2 /* Controllers */,
+				617BA8641E0D16AF002659D2 /* Model */,
+				617BA8631E0D16A2002659D2 /* Classes */,
+				617BA8391E0D1201002659D2 /* Laba11CoreData */,
+				617BA8381E0D1201002659D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		617BA8381E0D1201002659D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617BA8371E0D1201002659D2 /* Laba11CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617BA8391E0D1201002659D2 /* Laba11CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				617BA83D1E0D1201002659D2 /* AppDelegate.h */,
+				617BA83E1E0D1201002659D2 /* AppDelegate.m */,
+				617BA8401E0D1201002659D2 /* ViewController.h */,
+				617BA8411E0D1201002659D2 /* ViewController.m */,
+				617BA8431E0D1201002659D2 /* Main.storyboard */,
+				617BA8491E0D1201002659D2 /* Assets.xcassets */,
+				617BA84B1E0D1201002659D2 /* LaunchScreen.storyboard */,
+				617BA84E1E0D1201002659D2 /* Info.plist */,
+				617BA8461E0D1201002659D2 /* Laba11CoreData.xcdatamodeld */,
+				617BA83A1E0D1201002659D2 /* Supporting Files */,
+			);
+			path = Laba11CoreData;
+			sourceTree = "<group>";
+		};
+		617BA83A1E0D1201002659D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				617BA83B1E0D1201002659D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		617BA8631E0D16A2002659D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				617BA8651E0D1740002659D2 /* LEUser+CoreDataProperties.h */,
+				617BA8661E0D1740002659D2 /* LEUser+CoreDataProperties.m */,
+				617BA8671E0D1740002659D2 /* LENotes+CoreDataProperties.h */,
+				617BA8681E0D1740002659D2 /* LENotes+CoreDataProperties.m */,
+				617BA86B1E0D1740002659D2 /* LEObject+CoreDataProperties.h */,
+				617BA86C1E0D1740002659D2 /* LEObject+CoreDataProperties.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		617BA8641E0D16AF002659D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				617BA8541E0D1217002659D2 /* LEDataManager.h */,
+				617BA8551E0D1217002659D2 /* LEDataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		617BA8711E0D1777002659D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				617BA8721E0D179A002659D2 /* LERootController.h */,
+				617BA8731E0D179A002659D2 /* LERootController.m */,
+				617BA8781E0D1A48002659D2 /* LEUserController.h */,
+				610991B21E0D1FE30041AA84 /* LENotesController.h */,
+				610991B31E0D1FE30041AA84 /* LENotesController.m */,
+				610991B51E0D2FFF0041AA84 /* LECurrentNoteController.h */,
+				610991B61E0D2FFF0041AA84 /* LECurrentNoteController.m */,
+				611BCE481E14572A004FA75B /* LEUsers.h */,
+				611BCE491E14572A004FA75B /* LEUsers.m */,
+				611BCE421E1410F1004FA75B /* LENewUserController.h */,
+				611BCE431E1410F1004FA75B /* LENewUserController.m */,
+				611BCE451E144B49004FA75B /* LESection.h */,
+				611BCE461E144B49004FA75B /* LESection.m */,
+				617BA8791E0D1A48002659D2 /* LEUserController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617BA8361E0D1201002659D2 /* Laba11CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617BA8511E0D1201002659D2 /* Build configuration list for PBXNativeTarget "Laba11CoreData" */;
+			buildPhases = (
+				617BA8331E0D1201002659D2 /* Sources */,
+				617BA8341E0D1201002659D2 /* Frameworks */,
+				617BA8351E0D1201002659D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laba11CoreData;
+			productName = Laba11CoreData;
+			productReference = 617BA8371E0D1201002659D2 /* Laba11CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617BA82F1E0D1201002659D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Eugheny_Levin;
+				TargetAttributes = {
+					617BA8361E0D1201002659D2 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6AABQB8S42;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 617BA8321E0D1201002659D2 /* Build configuration list for PBXProject "Laba11CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617BA82E1E0D1201002659D2;
+			productRefGroup = 617BA8381E0D1201002659D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617BA8361E0D1201002659D2 /* Laba11CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617BA8351E0D1201002659D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617BA84D1E0D1201002659D2 /* LaunchScreen.storyboard in Resources */,
+				617BA84A1E0D1201002659D2 /* Assets.xcassets in Resources */,
+				617BA8451E0D1201002659D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617BA8331E0D1201002659D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617BA8481E0D1201002659D2 /* Laba11CoreData.xcdatamodeld in Sources */,
+				617BA8741E0D179A002659D2 /* LERootController.m in Sources */,
+				610991B71E0D2FFF0041AA84 /* LECurrentNoteController.m in Sources */,
+				611BCE441E1410F1004FA75B /* LENewUserController.m in Sources */,
+				611BCE471E144B49004FA75B /* LESection.m in Sources */,
+				617BA8561E0D1217002659D2 /* LEDataManager.m in Sources */,
+				617BA8421E0D1201002659D2 /* ViewController.m in Sources */,
+				617BA83F1E0D1201002659D2 /* AppDelegate.m in Sources */,
+				617BA83C1E0D1201002659D2 /* main.m in Sources */,
+				617BA8701E0D1740002659D2 /* LEObject+CoreDataProperties.m in Sources */,
+				611BCE4A1E14572A004FA75B /* LEUsers.m in Sources */,
+				617BA87A1E0D1A48002659D2 /* LEUserController.m in Sources */,
+				617BA86E1E0D1740002659D2 /* LENotes+CoreDataProperties.m in Sources */,
+				610991B41E0D1FE30041AA84 /* LENotesController.m in Sources */,
+				617BA86D1E0D1740002659D2 /* LEUser+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617BA8431E0D1201002659D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617BA8441E0D1201002659D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617BA84B1E0D1201002659D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617BA84C1E0D1201002659D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617BA84F1E0D1201002659D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		617BA8501E0D1201002659D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617BA8521E0D1201002659D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AABQB8S42;
+				INFOPLIST_FILE = Laba11CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "evgenylevin91-gmail.com.Laba11CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		617BA8531E0D1201002659D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AABQB8S42;
+				INFOPLIST_FILE = Laba11CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "evgenylevin91-gmail.com.Laba11CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617BA8321E0D1201002659D2 /* Build configuration list for PBXProject "Laba11CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617BA84F1E0D1201002659D2 /* Debug */,
+				617BA8501E0D1201002659D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617BA8511E0D1201002659D2 /* Build configuration list for PBXNativeTarget "Laba11CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617BA8521E0D1201002659D2 /* Debug */,
+				617BA8531E0D1201002659D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		617BA8461E0D1201002659D2 /* Laba11CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				617BA8471E0D1201002659D2 /* Laba11CoreData.xcdatamodel */,
+			);
+			currentVersion = 617BA8471E0D1201002659D2 /* Laba11CoreData.xcdatamodel */;
+			path = Laba11CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 617BA82F1E0D1201002659D2 /* Project object */;
+}
